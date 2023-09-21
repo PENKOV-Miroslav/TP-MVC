@@ -1,0 +1,97 @@
+/* Réinitialisation des marges et des espacements par défaut du navigateur */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête */
+h1 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Liens stylisés */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+a:hover {
+    background-color: #0056b3; 
+}
+.accueil-container {
+    text-align: center; /* Centrer les éléments à l'intérieur */
+    margin-top: 20px; /* Ajouter de l'espace au-dessus des boutons */
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style pour les formulaires */
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Style pour la liste UL */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style pour chaque élément LI dans la liste */
+  li {
+    padding: 8px 12px;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style pour les éléments LI pairs (alternance de couleurs) */
+  li:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  
+  /* Style pour les éléments LI au survol de la souris */
+  li:hover {
+    background-color: #d1d1d1;
+  }
+  
